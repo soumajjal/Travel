@@ -1,0 +1,132 @@
+/* CSS OF IMAGE */
+/* .img {
+  height: 5000px;
+  width: 100%;
+  z-index: -1;
+  margin: 0mm;
+  padding: 0mm;
+  position: absolute;
+} */
+/* .body {
+  background-image: url("5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: +1;
+} */
+
+/* CSS OF NAVBAR */
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 26px;
+  color: rgb(0, 0, 0);
+  padding: 20px 22px 22px 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 21px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 25px 25px 25px 25px;
+  text-decoration: none;
+  color: #080808;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(11, 102, 90, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 10px solid red;
+    top: 10px solid red;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 10px solid red;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 10px solid red;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 10px solid red;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+/* CSS OF BOX MAIN */
+
+.cerd {
+  padding: 30px;
+  padding-top: 50px;
+}
+.fle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.ma {
+  background-image: url("5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

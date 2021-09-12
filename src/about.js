@@ -1,10 +1,9 @@
 import React from "react";
 import logo6 from "./6.jpg";
-import "./app.css";
+import "./about.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
-const App = () => {
+const Apps = () => {
   return (
     <React.Fragment>
       <div>
@@ -36,23 +35,24 @@ const App = () => {
           <a href="/book" >
             BookNow
           </a>
-          <a href="/contact" >
+          <a href="/contact">
             ContactUs
           </a>
         </div>
       </div>
       <div className="main">
         <div className="bin">
-          <div className="in">TravelGO</div>
+          <div className="in">AboutUs</div>
           <div className="ain">
-            TravelGO is designed to meet your travel needs with cheap and
-            affordable packages. Choose the best package from our wide range of
-            irresistible deals at your desired destination. So do not wait to
-            explore the WORLD OF TRAVELLING. Click on the EXPLORE button to
-            start your journey today.
+            TravelGO helps users make the most of what they spend on travel. We
+            give travelers engineered packages that keep them safe and
+            productive and help them make good choices on the road. We simplify
+            the complexities of business travel, drive savings and satisfaction
+            and move whole companies toward their goals. In short, we help our
+            clients travel smart and achieve more.
           </div>
-          <a className="bts" href="/package">
-            <button className="button button1">EXPLORE</button>
+          <a className="bts" href="/contact">
+            <button className="button button1">ContactUs</button>
           </a>
         </div>
       </div>
@@ -60,4 +60,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Apps;
