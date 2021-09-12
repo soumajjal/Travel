@@ -1,8 +1,7 @@
 import React from "react";
 import logo6 from "./6.jpg";
-import "./app.css";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 
 const App = () => {
   return (
@@ -24,21 +23,11 @@ const App = () => {
         </div>
 
         <div class="nav-links">
-          <a href="/" >
-            Home
-          </a>
-          <a href="/about" >
-            AboutUs
-          </a>
-          <a href="/package" >
-            Packages
-          </a>
-          <a href="/book" >
-            BookNow
-          </a>
-          <a href="/contact" >
-            ContactUs
-          </a>
+          <a href="/">Home</a>
+          <a href="/about">AboutUs</a>
+          <a href="/package">Packages</a>
+          <a href="/book">BookNow</a>
+          <a href="/contact">ContactUs</a>
         </div>
       </div>
       <div className="main">
